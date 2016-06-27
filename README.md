@@ -44,7 +44,7 @@ var routes = [
     ]}
   ];
 
-var app = riot.mount('routehandler',{routes:routes,routeroptions:{hashbang:true}});
+var app = riot.mount('routehandler',{routes:routes,options:{hashbang:true}});
 ```
 
 You'll also need to add the routehandler to your html file.
